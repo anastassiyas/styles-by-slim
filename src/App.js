@@ -8,15 +8,16 @@ import Header from "./components/Header";
 import Blog from "./components/Blog";
 import Testimonials from "./components/Testimonials";
 import Home from "./components/Home";
-import  Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio";
 import About from "./components/About";
+
 
 function App() {
   return (
     <div style={{backgroundImage: `url("./BG.jpg")`
   }}>
  
-    {/* <main className="text-blue-700 bg-gray-300 body-font"> */}
+    
    <Header />
    <Navbar />
    <Home />
@@ -26,9 +27,8 @@ function App() {
    <Blog />
    <Testimonials />
    <Contact />
+   <Footer />
 
-
- 
     </div>
   );
 }
